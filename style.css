@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(138, 138, 207);
+}
+
+form {
+    background-color: rgb(70, 119, 255);
+    max-width: 700px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+form > div > input {
+    width: 40%;
+}
+
+form > div#dados > input {
+margin-bottom: 10px ;
+}
+
+
+
+
+div#texto {
+ padding-top: 10px;
+}
+
+form > div#texto > textarea {
+    width: 90%;
+}
+
+
+div#adicionais {
+    padding-top: 10px;
+}
+
+div#adicionais > input {
+    margin-top: 10px ;
+}
+
+#botao_enviar:hover, #botao_reset:hover {
+    background-color:rgb(64, 64, 146) ;
+}
+
